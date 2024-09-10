@@ -1,0 +1,25 @@
+airplane
+apple
+banana
+bee
+bench
+bicycle
+butterfly
+cat
+chair
+couch
+cow
+cup
+dog
+duck
+flower
+horse
+pickup truck
+pig
+rabbit
+sheep
+strawberry
+table
+tree
+umbrella
+wine bottle
