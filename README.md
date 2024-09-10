@@ -7,7 +7,7 @@ This repository hosts the datasets and the code for the CAVT (WACV 2025). Please
 CAVT consists of two sub-modules: (i) the Class-Agnostic Visio-Temporal object detector and (ii) the Post-Processing module. Each scene sketch is pre-processed using an RGB coloring technique, and these sketches are passed through the Class-Agnostic Object Detector to generate prediction boxes. The Post-Processing module refines the detector's outputs using a set of rules for stroke-level instance grouping by leveraging temporal stroke order and spatial features. Our network produces stroke groups belonging to object instances in the scene sketch.
 
 <p align="center">
-  <img width="100%" height="200" src="assets/cavt_pipeline.png?raw=true">
+  <img width="100%" height="100%" src="assets/cavt_pipeline.png?raw=true">
 </p>
 
 ![cavt-pipeline](assets/cavt_pipeline.png?raw=true)
