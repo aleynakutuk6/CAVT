@@ -1,5 +1,19 @@
 # Class-Agnostic Visio-Temporal Scene Sketch Semantic Segmentation
 
+This repository hosts the datasets and the code for the CAVT (WACV 2025). Please refer to our paper for more information:
+
+## Overview of CAVT pipeline
+
+CAVT consists of two sub-modules: (i) the Class-Agnostic Visio-Temporal object detector and (ii) the Post-Processing module. Each scene sketch is pre-processed using an RGB coloring technique to preserve the temporal stroke order, and these sketches are passed through the Class-Agnostic Object Detector to generate prediction boxes. The Post-Processing module refines the detector's outputs using a set of rules for stroke-level instance grouping by leveraging temporal stroke order and spatial features. Our network produces stroke groups belonging to object instances in the scene sketch.
+
+![project-pipeline](assets/cavt_pipeline.pdf?raw=true)
+
+## The FrISS Dataset
+
+We propose the largest Free-hand Instance- and Stroke-level Scene sketch dataset (FrISS) that includes scene sketches in vector format, stroke-level class and instance annotations, sketch-text pairs, and verbal audio clips paired with each scene.
+
+![friss-samples](assets/friss-dataset-samples-colorful.pdf?raw=true)
+
 ## Dependencies
 
 CAVT and Inception-V3 requires:
