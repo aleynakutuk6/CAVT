@@ -10,19 +10,21 @@ CAVT consists of two sub-modules: (i) the Class-Agnostic Visio-Temporal object d
   <img width="100%" height="100%" src="assets/cavt_pipeline.png?raw=true">
 </p>
 
-![cavt-pipeline](assets/cavt_pipeline.png?raw=true)
-
 ## Visual Results
 
-Visual comparison of our method with Local Detail Perception [LDP](https://github.com/drcege/Local-Detail-Perception) and Open Vocabulary [OV](https://github.com/AhmedBourouis/Scene-Sketch-Segmentation) models that are evaluated on the proposed FrISS dataset. For more detailed comparison, refer to our paper.
+Visual comparison of our method with Local Detail Perception [LDP](https://github.com/drcege/Local-Detail-Perception) and Open Vocabulary [OV](https://github.com/AhmedBourouis/Scene-Sketch-Segmentation) models that are evaluated on the proposed FrISS dataset. For a more detailed comparison, refer to our paper.
 
-![visual-results](assets/visual_results_friss.png?raw=true)
+<p align="center">
+  <img width="100%" height="100%" src="assets/visual_results_friss.png?raw=true">
+</p>
 
 ## The FrISS Dataset
 
 We propose the largest Free-hand Instance- and Stroke-level Scene sketch dataset (FrISS) that includes scene sketches in vector format, stroke-level class and instance annotations, sketch-text pairs, and verbal audio clips paired with each scene.
 
-![friss-samples](assets/friss_samples.png?raw=true)
+<p align="center">
+  <img width="100%" height="100%" src="assets/friss_samples.png?raw=true">
+</p>
 
 ## Dependencies
 
