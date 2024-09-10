@@ -62,7 +62,7 @@ To create the environment for Sketchformer, run:
 
 - The `src/`directory contains our source codes along with the compared SOTA models'.
 
-- The `weights/`directory contains the weights for CAVT, Inception-V3, and Sketchformer.
+- Download the model weights from this [link](https://drive.google.com/drive/folders/1suDve2jq4Gr5eX1qBQOE89r4pgZM9lB0?usp=sharing). Put the weights into the `weights/`directory for CAVT, Inception-V3, and Sketchformer. 
 
 ## To Run:
 
