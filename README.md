@@ -26,6 +26,21 @@ We propose the largest Free-hand Instance- and Stroke-level Scene sketch dataset
   <img width="100%" height="100%" src="assets/friss_samples.png?raw=true">
 </p>
 
+## Dataset Structure
+
+The FrISS dataset comprises scene sketches encoded in a structured JSON format, specifically designed to enable comprehensive analysis and classification of object instances within each scene. The dataset is organized as follows, and you can access it through the following [link](https://drive.google.com/drive/folders/1xbe9hNVsUB6JLayTwGgpsOCZTSG28geW?usp=sharing):
+
+- Scene Identifier: Each scene is uniquely identified by a key in the format "sceneid-userid" (e.g., "sceneid-0-userid-0"). The sceneid represents a specific scene description, while the userid indicates the individual user who created the sketch. For instance, "sceneid-0-userid-1" and "sceneid-0-userid-2" refer to sketches of the same scene drawn by different users, allowing for a comparative analysis of how various artists interpret the same subject matter.
+
+- Object Instances: Each scene contains a list of object instances, where each instance comprises:
+    - Drawing: This attribute represents the vector representation of the sketch, organized into three lists:
+        - The x-coordinates of the stroke points, detailing the horizontal positioning of the drawing.
+        - The y-coordinates of the stroke points, indicating the vertical positioning of the drawing.
+        - The timestamps for each stroke point, capturing the temporal sequence of the drawing process.
+    - Labels: A string that provides the category of the object depicted in the sketch (e.g., "airplane")
+
+The FrISS dataset supports a diverse array of research applications, including stroke-level scene sketch segmentation, instance-level or speech-based sketch applications, and cross-modal investigations that leverage sketch-text pairs. 
+
 ## Dependencies
 
 CAVT and Inception-V3 requires:
@@ -62,7 +77,7 @@ To create the environment for Sketchformer, run:
 
 - The `src/`directory contains our source codes along with the compared SOTA models'.
 
-- Download the model weights from this [link](https://drive.google.com/drive/folders/1suDve2jq4Gr5eX1qBQOE89r4pgZM9lB0?usp=sharing). Put the weights into the `weights/`directory for CAVT, Inception-V3, and Sketchformer. 
+- Download the model weights from this [link](https://drive.google.com/drive/folders/1i2GHOwIzjdIYzerBdt_YKRKvQzoZxgpR?usp=sharing). Put the weights into the `weights/`directory for CAVT, Inception-V3, and Sketchformer. 
 
 ## To Run:
 
