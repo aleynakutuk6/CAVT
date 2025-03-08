@@ -37,7 +37,7 @@ The FrISS dataset comprises scene sketches encoded in a structured JSON format, 
         - The x-coordinates of the stroke points, detailing the horizontal positioning of the drawing.
         - The y-coordinates of the stroke points, indicating the vertical positioning of the drawing.
         - The timestamps for each stroke point, capturing the temporal sequence of the drawing process.
-    - Labels: A string that provides the category of the object depicted in the sketch (e.g., "airplane")
+    - Label: A category that identifies the corresponding object instance depicted in the scene (e.g., "airplane").
 
 The FrISS dataset supports a diverse array of research applications, including stroke-level scene sketch segmentation, instance-level or speech-based sketch applications, and cross-modal investigations that leverage sketch-text pairs. 
 
