@@ -126,3 +126,16 @@ python3 evaluate.py -m skformer -d <cbsc / friss> -c sketchy-qd \
     [-ov if you want the OV style results] 
 
 ```
+
+## Citation
+
+```
+@InProceedings{Kutuk_2025_WACV,
+    author    = {K\"ut\"uk, Aleyna and Sezgin, Tevfik Metin},
+    title     = {Class-Agnostic Visio-Temporal Scene Sketch Semantic Segmentation},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {8433-8442}
+}
+```
