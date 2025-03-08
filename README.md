@@ -1,6 +1,6 @@
 # Class-Agnostic Visio-Temporal Scene Sketch Semantic Segmentation
 
-This repository hosts the datasets and the code for the CAVT (WACV 2025). Please refer to [our paper](https://openaccess.thecvf.com/content/WACV2025/papers/Kutuk_Class-Agnostic_Visio-Temporal_Scene_Sketch_Semantic_Segmentation_WACV_2025_paper.pdf) for more information.
+This repository hosts the dataset and the code for the CAVT (WACV 2025). Please refer to [our paper](https://openaccess.thecvf.com/content/WACV2025/papers/Kutuk_Class-Agnostic_Visio-Temporal_Scene_Sketch_Semantic_Segmentation_WACV_2025_paper.pdf) for more information.
 
 ## Overview of CAVT pipeline
 
